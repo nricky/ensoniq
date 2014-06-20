@@ -1,0 +1,105 @@
+Welcome to Git (version 1.9.0-preview20140217)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+user@KABURU ~
+$ heroku apps:create kakaimugalo
+Creating kakaimugalo... done, stack is cedar
+http://kakaimugalo.herokuapp.com/ | git@heroku.com:kakaimugalo.git
+
+user@KABURU ~
+$ cd /C/xampp/htdocs/kakaimugalo
+
+user@KABURU /C/xampp/htdocs/kakaimugalo
+$ git init
+Initialized empty Git repository in c:/xampp/htdocs/kakaimugalo/.git/
+
+user@KABURU /C/xampp/htdocs/kakaimugalo (master)
+$ git add .
+warning: LF will be replaced by CRLF in bootstrap/config.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/fonts/glyphicons-halflings-reg
+ular.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in javascript/jquery1.7.js.
+The file will have its original line endings in your working directory.
+
+user@KABURU /C/xampp/htdocs/kakaimugalo (master)
+$ git commit -m "final demo"
+[master (root-commit) 7d75804] final demo
+warning: LF will be replaced by CRLF in bootstrap/config.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/fonts/glyphicons-halflings-reg
+ular.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in javascript/jquery1.7.js.
+The file will have its original line endings in your working directory.
+ 39 files changed, 9743 insertions(+)
+ create mode 100644 about-us.php
+ create mode 100644 bootstrap/config.json
+ create mode 100644 bootstrap/css/bootstrap-theme.css
+ create mode 100644 bootstrap/css/bootstrap-theme.min.css
+ create mode 100644 bootstrap/css/bootstrap.css
+ create mode 100644 bootstrap/css/bootstrap.min.css
+ create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 bootstrap/js/bootstrap.js
+ create mode 100644 bootstrap/js/bootstrap.min.js
+ create mode 100644 carouselTemplate.css
+ create mode 100644 clients.php
+ create mode 100644 contacts.php
+ create mode 100644 facebook.png
+ create mode 100644 footer.php
+ create mode 100644 image1.jpg
+ create mode 100644 image2.jpg
+ create mode 100644 image3.jpg
+ create mode 100644 image4.jpg
+ create mode 100644 image5.jpg
+ create mode 100644 image6.jpg
+ create mode 100644 image7.jpg
+ create mode 100644 image8.jpg
+ create mode 100644 index.php
+ create mode 100644 javascript/generaljs.js
+ create mode 100644 javascript/jquery1.7.js
+ create mode 100644 navigation.php
+ create mode 100644 people/kakai.gif
+ create mode 100644 people/kakai.jpeg
+ create mode 100644 people/walela.jpeg
+ create mode 100644 round1.jpg
+ create mode 100644 round2.jpg
+ create mode 100644 round3.jpg
+ create mode 100644 services.php
+ create mode 100644 team.php
+ create mode 100644 twitter.jpg
+ create mode 100644 twitter2.png
+
+user@KABURU /C/xampp/htdocs/kakaimugalo (master)
+$ git push git@heroku.com:kakaimugalo.git master
